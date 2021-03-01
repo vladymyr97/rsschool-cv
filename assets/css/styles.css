@@ -7,6 +7,7 @@
 body {
     font-family: "Lato", sans-serif;
     background-color: #ececec;
+    color: #412c2f;
 }
 
 a {
@@ -17,10 +18,8 @@ a {
 .wrapper {
     max-width: 840px;
     margin: 0 auto;
+    background-color: white;
 }
-
-
-/* HEADER */
 
 .header {
     background-color: #412c2f;
@@ -51,7 +50,6 @@ a {
 
 .profile-intro {
     background-color: white;
-    color: #412c2f;
     padding: 0 70px 0 90px;
     z-index: 1;
 }
@@ -64,6 +62,9 @@ a {
 a.profile-description {
     display: block;
     background-color: #412c2f;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
 }
 
 .profile-description {
@@ -71,5 +72,33 @@ a.profile-description {
     text-align: center;
 }
 
+.sidebar,
+.main {
+    padding: 150px 20px 0 20px;
+    display: inline-block;
+}
 
-/* END HEADER */
+.sidebar {
+    width: 37%;
+}
+
+.profile-item {
+    margin-bottom: 50px;
+}
+
+.profile-item h2 {
+    text-transform: uppercase;
+    border: 5px solid #d45f5e;
+    border-radius: 20px;
+    padding: 3px 0 3px 20px;
+}
+
+.profile-item p {
+    font-size: 1.1em;
+    margin-top: 15px;
+    padding: 0 20px;
+}
+
+.profile-item p span {
+    float: right;
+}
