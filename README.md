@@ -1,1 +1,1 @@
-[Markdown CV](https://your-github-account.github.io/rsschool-cv/cv)
+[Markdown CV](https://KirillLitoshko.github.io/rsschool-cv/cv)
