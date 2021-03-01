@@ -42,3 +42,7 @@ Employment
 Education
 -------------------------
 2010-2013 Homiel Trade and Economic College
+
+English
+-------------------------
+A2 (Pre-Intermediate)
