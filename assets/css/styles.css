@@ -91,6 +91,8 @@ a.profile-description {
     border: 5px solid #d45f5e;
     border-radius: 20px;
     padding: 3px 0 3px 20px;
+    background: rgb(243, 212, 205);
+    background: linear-gradient( 180deg, rgba(243, 212, 205, 1) 0%, rgba(243, 212, 205, 1) 50%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 100%);
 }
 
 .profile-item p {
@@ -99,6 +101,11 @@ a.profile-description {
     padding: 0 20px;
 }
 
+.main,
 .profile-item p span {
     float: right;
+}
+
+.main {
+    width: 63%;
 }
